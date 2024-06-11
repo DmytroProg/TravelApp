@@ -1,0 +1,9 @@
+User UseCase :
+- login/register
+- see/change self info
+- see previous orders
+- see all orders
+- filter orders
+- make order:
+  - fill contact info
+  - fill payment info
