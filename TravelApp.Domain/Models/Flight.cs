@@ -3,6 +3,7 @@
 [Serializable]
 public class Flight
 {
+    // Unique
     public int Id { get; set; }
     public string CompanyImagePath { get; set; }
     public Country CountryFrom { get; set; }
