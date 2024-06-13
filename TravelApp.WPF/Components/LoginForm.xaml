@@ -1,0 +1,106 @@
+﻿<UserControl x:Class="TravelApp.WPF.Components.LoginForm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TravelApp.WPF.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="300">
+    <Grid>
+        <Border Background="White"
+             CornerRadius="5"
+             BorderBrush="Gray"
+             BorderThickness="1"
+             Padding="20">
+            <StackPanel>
+                <TextBlock 
+              Padding="0, 0, 0, 0"
+              FontFamily="Verdana"          
+              FontSize="11"
+              FontWeight="Normal">
+                Login
+                </TextBlock>
+
+                <TextBlock 
+              Padding="0, 8, 0, 0"
+              Foreground="Gray" 
+              FontFamily="Verdana"          
+              FontSize="10"
+              FontWeight="Light"> 
+                 Your journey starts here
+                </TextBlock>
+
+                <!-- Перший блок -->
+                <TextBlock
+              Foreground="Gray" 
+              FontFamily="Verdana"          
+              FontSize="9"
+              FontWeight="Light"
+                 Padding="0, 30, 0, 8">
+                  Email or phone number
+                </TextBlock>
+
+                <!-- Ввід імені -->
+                <Border
+              BorderThickness="1"
+              BorderBrush="LightGray"
+              CornerRadius="5"
+              Width="225"
+              Height="30"
+              Margin="-30, 0, 0, 0">
+                    <TextBox x:Name="textBox1"  
+                          Background="Transparent"
+                          BorderThickness="0"
+                          FontSize="12"
+                          FontWeight="DemiBold"
+                          Padding="10, 5, 0, 0"/>
+                </Border> 
+
+             
+
+                <!-- Парольний блок -->
+                <TextBlock 
+              Padding="0, 10, 0, 7"
+              Foreground="Gray" 
+              FontFamily="Verdana"          
+              FontSize="9"
+              FontWeight="Light">
+                 Password
+                </TextBlock>
+
+                <Border 
+              BorderThickness="1"
+              BorderBrush="LightGray"
+              CornerRadius="5"
+              Width="225"
+              Height="30"
+              Margin="-30, 0, 0, 10">
+                    <PasswordBox x:Name="passwordBox" 
+                              Background="Transparent"
+                              BorderThickness="0"
+                              FontSize="12"
+                              Padding="10, 5, 0, 0"/>
+                </Border>
+
+
+               
+                <Border CornerRadius="5"
+                     BorderThickness="0"
+                     BorderBrush="LightGray"
+                     Margin="0, 180, 0, 0"
+                     Width="205">
+                    <!-- Continue -->
+                    <Button Background="LightSkyBlue"
+                         Padding="0, 7"
+                         BorderThickness="0">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Foreground="White">
+                             CONTINUE
+                            </TextBlock>
+                        </StackPanel>
+                    </Button>
+                </Border>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>
