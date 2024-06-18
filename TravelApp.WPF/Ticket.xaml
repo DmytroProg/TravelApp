@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="TravelApp.WPF.Ticket"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TravelApp.WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="1000" Background="White">
+
+    <Border BorderBrush="LightGray" BorderThickness="3" CornerRadius="30">
+        <DockPanel>
+            <Label Content="Flight ID 128975677" FontSize="25" FontWeight="Medium" Height="48" Margin ="10 0 0 0"  VerticalContentAlignment="Bottom" DockPanel.Dock="Top"/>
+            <Rectangle Stroke="LightGray" StrokeThickness="3" DockPanel.Dock="Top"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition />
+                    <ColumnDefinition  Width="0.3*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Image Grid.Column="0" Source="Images/icon.png" Margin="20"/>
+
+                <StackPanel Grid.Column="1" Margin="0 20" VerticalAlignment="Center">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="3*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Column="0" Content="Jackarta (CGK)" HorizontalAlignment="Right" />
+                        <Label Grid.Column="1" Content="-"              HorizontalAlignment="Center" />
+                        <Label Grid.Column="2" Content="Denpasar"       HorizontalAlignment="Center"/>
+                        <Label Grid.Column="3" Content="-"              HorizontalAlignment="Center"/>
+                        <Label Grid.Column="4" Content="Bali (DPS)"     HorizontalAlignment="Left"/>
+                    </Grid>
+
+                    <Label Content="Wednesday, Random Month 100348" HorizontalAlignment="Center"/>
+                    <Label Content="3 Adults" HorizontalAlignment="Center"/>
+                </StackPanel>
+
+                <Rectangle Grid.Column="2" Height="100" Stroke="Black" StrokeThickness="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+                <StackPanel Grid.Column="3" Margin="0 35" VerticalAlignment="Center">
+                    <Label Content="10:25 AM" HorizontalAlignment="Center"/>
+                    <Label Content="CGK" HorizontalAlignment="Center"/>
+                </StackPanel>
+
+                <Rectangle Grid.Column="4" Width="50" Stroke="Black" StrokeThickness="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+                <StackPanel Grid.Column="5" Margin="0 35" VerticalAlignment="Center">
+                    <Label Content="12:45 PM" HorizontalAlignment="Center"/>
+                    <Label Content="DPS" HorizontalAlignment="Center"/>
+                </StackPanel>
+
+                <Rectangle Grid.Column="6" Height="100" Stroke="Black" StrokeThickness="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+                <StackPanel Grid.Column="7" Margin="0 35" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Label Content="Refoundable" HorizontalAlignment="Center"/>
+                    <Label Content="Reschedulable" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+        </DockPanel>
+    </Border>
+</UserControl>
