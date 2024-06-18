@@ -42,12 +42,10 @@
 
                 <!-- Ввід імені -->
                 <Border
-              BorderThickness="1"
-              BorderBrush="LightGray"
-              CornerRadius="5"
-              Width="225"
-              Height="30"
-              Margin="-30, 0, 0, 0">
+                    BorderThickness="1"
+                    BorderBrush="LightGray"
+                    CornerRadius="5"
+                    Height="30">
                     <TextBox x:Name="textBox1"  
                           Background="Transparent"
                           BorderThickness="0"
@@ -72,9 +70,7 @@
               BorderThickness="1"
               BorderBrush="LightGray"
               CornerRadius="5"
-              Width="225"
-              Height="30"
-              Margin="-30, 0, 0, 10">
+              Height="30">
                     <PasswordBox x:Name="passwordBox" 
                               Background="Transparent"
                               BorderThickness="0"
