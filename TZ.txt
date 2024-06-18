@@ -1,9 +1,14 @@
 User UseCase :
-- login/register
-- see/change self info
-- see previous orders
-- see all orders
-- filter orders
-- make order:
+- login/register        (User)
+- see/change self info  (User)
+- see previous orders   (User)
+- see all flights       (Flight)
+- filter flights        (Flight)
+- make order:           (Order)
   - fill contact info
   - fill payment info
+
+  {
+	"id": 1,
+	"flight": 10
+  }
