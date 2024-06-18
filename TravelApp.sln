@@ -14,6 +14,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TZ.txt = TZ.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{1C79BD0B-85B0-4476-A61C-38E227AC0725}"
+	ProjectSection(SolutionItems) = preProject
+		TravelApp.WPF\Ticket.xaml = TravelApp.WPF\Ticket.xaml
+		TravelApp.WPF\Ticket.xaml.cs = TravelApp.WPF\Ticket.xaml.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
