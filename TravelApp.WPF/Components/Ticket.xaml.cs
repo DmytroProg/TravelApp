@@ -13,16 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TravelApp.WPF
+namespace TravelApp.WPF.Components
 {
-	/// <summary>
-	/// Interaction logic for Ticket.xaml
-	/// </summary>
-	public partial class Ticket : UserControl
-	{
-		public Ticket()
-		{
-			InitializeComponent();
-		}
-	}
+    /// <summary>
+    /// Interaction logic for Ticket.xaml
+    /// </summary>
+    public partial class Ticket : UserControl
+    {
+        public Ticket()
+        {
+            InitializeComponent();
+        }
+    }
 }
