@@ -14,7 +14,7 @@
                 <Image Source="qantas.png" Width="40" Height="40" Margin="0,0,10,0"/>
                 <StackPanel>
                     <TextBlock Text="Qantas Airlines"  FontSize="14" Margin="0,0,0,10"/>
-                    <TextBlock Text="Economy" FontSize="12" Foreground="Gray"/>
+                    <TextBlock Text="Economy" FontSize="12" Foreground="Gray"/> 
                 </StackPanel>
             </StackPanel>
             <TextBlock Text="Wednesday, 25 May 2022" FontSize="12" Margin="0,30,0,30" HorizontalAlignment="Center"/>
