@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TravelApp.WPF
+namespace TravelApp.WPF.Components
 {
     /// <summary>
-    /// Interaction logic for flight_oder.xaml
+    /// Interaction logic for FlightOrder.xaml
     /// </summary>
-    public partial class flight_oder : UserControl
+    public partial class FlightOrder : UserControl
     {
-        public flight_oder()
+        public FlightOrder()
         {
             InitializeComponent();
         }
