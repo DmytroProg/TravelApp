@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Windows;
 using System.Windows.Controls;
 
 namespace TravelApp.WPF.Components
@@ -10,26 +9,16 @@ namespace TravelApp.WPF.Components
         {
             InitializeComponent();
 
-            // Set the current date in the "dd/MM/yyyy" format (e.g., "20/06/2024")
-            CurrentDateTextBlock.Text = DateTime.Now.ToString("dd/MM/yyyy");
-        }
-
-        private void ViewDetails_Click(object sender, RoutedEventArgs e)
-        {
-            // Handle View Details click
-            MessageBox.Show("Viewing details...");
-        }
-
-        private void Edit_Click(object sender, RoutedEventArgs e)
-        {
-            // Handle Edit click
-            MessageBox.Show("Editing...");
-        }
-
-        private void Delete_Click(object sender, RoutedEventArgs e)
-        {
-            // Handle Delete click
-            MessageBox.Show("Deleting...");
+            DateComboBox.Items.Add("20.08.2025");
+            DateComboBox.Items.Add("12.06.2025");
+            DateComboBox.Items.Add("30.07.2027");
+            DateComboBox.Items.Add("13.09.2028");
+            DateComboBox.Items.Add("05.10.2024");
+            DateComboBox.Items.Add("25.12.2027");
+            DateComboBox.Items.Add("21.11.2026");
+            DateComboBox.Items.Add("24.02.2023");
+            DateComboBox.Items.Add("18.03.2024");
+            DateComboBox.Items.Add("11.01.2023");
         }
     }
 }
