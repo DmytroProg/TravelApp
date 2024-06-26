@@ -7,12 +7,13 @@
              mc:Ignorable="d" 
              Height="100"
              d:DesignHeight="100" d:DesignWidth="1000" Background="#3d9fd5">
+    
     <DockPanel LastChildFill="False">
-        <Image Source ="Images/icon.png" DockPanel.Dock="Left" Height="60" Width="60" Margin="70 15 10 15"/>
+        <Image Source ="../Images/logo.png" DockPanel.Dock="Left" Height="60" Width="60" Margin="70 15 10 15"/>
         <Label Content="TravelTix" FontSize ="30" VerticalContentAlignment="Center" Foreground="#e5f4fa" />
         <Border CornerRadius="90" DockPanel.Dock = "Right" Height="60" Width="60" Margin="20">
             <Border.Background>
-                <ImageBrush  Stretch="UniformToFill" ImageSource="Images/icon1.jpg"/>
+                <ImageBrush   Stretch="UniformToFill" ImageSource="https://i.pinimg.com/originals/0a/1f/82/0a1f820e29719c7b67e9d5aa44241155.png"/>
             </Border.Background>
         </Border>
     </DockPanel>
