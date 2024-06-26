@@ -5,8 +5,9 @@ namespace TravelApp.Domain.Interfaces;
 public interface IUserService
 {
     void Register(User user);
-    void Login(string emailOrPhone, string password);
-    User GetInfo(int userId);
-    User ChangeInfo(User user);
-    List<FlightOrder> GetRecentOrders(int userId);
+    User Login(string name, string password);
+    User GetInfo(string name);
+    User ChangeInfo(string name, User user);
+    List<FlightOrder> GetRecentOrders(string name);
+    bool UserExists(string name);
 }
