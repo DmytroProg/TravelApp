@@ -12,7 +12,10 @@
     <None Remove="Images\arrival.png" />
     <None Remove="Images\calendar.png" />
     <None Remove="Images\departure.png" />
+    <None Remove="Images\logout.png" />
+    <None Remove="Images\order.png" />
     <None Remove="Images\person.png" />
+    <None Remove="Images\person2.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,7 +28,16 @@
     <Content Include="Images\departure.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\logout.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\order.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\person.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\person2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
