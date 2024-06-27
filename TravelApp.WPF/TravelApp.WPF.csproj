@@ -13,11 +13,24 @@
     <None Remove="Images\calendar.png" />
     <None Remove="Images\departure.png" />
     <None Remove="Images\logo.png" />
+    <None Remove="Images\logout.png" />
+    <None Remove="Images\order.png" />
+    <None Remove="Images\payment_seccessfull.png" />
     <None Remove="Images\person.png" />
     <None Remove="Images\person2.png" />
+    <None Remove="Images\plane_back.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Images\logout.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\order.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\payment_seccessfull.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\person2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -40,6 +53,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\person2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\plane_back.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
