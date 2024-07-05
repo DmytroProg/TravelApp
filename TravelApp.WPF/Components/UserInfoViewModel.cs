@@ -11,8 +11,10 @@ namespace TravelApp.WPF
     internal class UserInfoViewModel
     {
         public ICommand SaveCommand { get; set; }
+
         public string FullName { get; set; }
         public string NumberOrEmail { get; set; }
+
         public UserInfoViewModel() {
             SaveCommand = new TestCommand();
         }
