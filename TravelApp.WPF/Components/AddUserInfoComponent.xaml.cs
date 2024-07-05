@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TravelApp.WPF
+namespace TravelApp.WPF.Components
 {
     /// <summary>
     /// Interaction logic for AddUserInfoComponent.xaml
@@ -23,11 +23,6 @@ namespace TravelApp.WPF
         public AddUserInfoComponent()
         {
             InitializeComponent();
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
         }
     }
 }
